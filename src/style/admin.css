@@ -1,0 +1,154 @@
+:root{
+    --ligt-red:#690505;
+
+}
+
+.form-wrap{
+    transition: right 1s ease;
+    border-radius: 10px !important;
+    padding: 10px;
+    margin: 40px;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    background-color: #fff;
+    /* border: 1px solid var(--ligt-red); */
+}
+
+
+.form{
+    display: flex;
+    justify-content: space-around;
+    padding:10px !important;
+
+}
+.form-wrap .form-left,.form-wrap  .form-right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.form-wrap .heading{
+    height: 8vh;
+    background-color: var(--ligt-red);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 10px !important;
+    
+}
+.form-left label,.form-right label{
+    margin-bottom: 5px !important;
+    color: var(--ligt-red);
+    font-size: 14px !important;
+}
+.form-left>div,.form-right>div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.btn-wrap div{ 
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 30px;
+    margin-bottom: 20px !important;
+   
+    
+}
+.btn-wrap button{
+    margin-left: 10px;
+    margin-right: 10px  !important;
+}
+.layout-wrap{
+    height: 88vh;
+    overflow-y: auto;
+   
+}
+.about-wrap{
+    display: flex;
+    margin-top: 4px !important;
+}
+.about-left-side {
+    width: 60%;
+    height: 300px;
+    background-color: #690505; 
+
+}
+.about-left-side {
+    padding: 20px !important;
+}
+.about-left-side .h2{
+    color: #e97c17;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+.about-right{
+    width: 40%;
+    height: 300px;
+    background-image: url("../../src/assats/bg.jpeg"); /* Correct way to set the image */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.content-wrap{
+    margin-top: 50px  !important;
+    font-size: 14px !important;
+    word-spacing: 2px;
+    font-family: 500;
+    color: #fff;
+}
+.sub-heading{
+    margin-top: 60px  !important;
+    color: #e97c17;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+.about-right h1{
+    margin-top: 90px !important;
+    color: #1c0505;
+  margin-left: 10px;
+
+}
+
+.form-wrap-loginSigup,.form-take-Appointments{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    transition: right 1s ease;
+    border-radius: 10px !important;
+    padding: 10px;
+    margin: 40px;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    height:auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    background-color: #fff;
+    /* border: 1px solid var(--ligt-red); */
+}
+.wrap-loginSignup,.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-wrap-loginSigup  .form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
